@@ -1,3 +1,7 @@
 body{
     background-image: url("../images/Gangster.jpg");
 }
+form{
+    margin-top: auto;
+    margin-bottom: auto;
+}
