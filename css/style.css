@@ -1,5 +1,6 @@
 body{
     background-image: url("http://meetinthelobby.com/wp-content/uploads/2012/05/Gangster_Squad_Coming_Soon_Movie_Poster_Large.jpg");
+    background-repeat: no-repeat ;
 }
 form{
     margin-top: auto;
