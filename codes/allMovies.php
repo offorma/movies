@@ -28,7 +28,7 @@
             <?php
 
                echo "<div class=\"container\">
-                     <div class=\"row\">"
+                     <div class=\"row\">";
                       while($x >=4){
                      echo"<div class=\"col-md-3\">" ;
                 foreach ($row as $key => $value) {
