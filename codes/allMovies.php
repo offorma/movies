@@ -22,7 +22,7 @@
         $result = mysqli_query($conn,$sql);//Query the db using the mysqli_query function and store result in result varaible.
 
 
-        while($row = mysqli_fetch_assoc($result)){
+        while($row = mysqli_fetch_array($result)){
     ?>
 
             <?php
