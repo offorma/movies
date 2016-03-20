@@ -31,8 +31,8 @@
                      <div class=\"row\">";
                       while($x >=4){
                      echo"<div class=\"col-md-3\">" ;
-                foreach ($row as $key => $value) {
-                    echo $row[$key];
+                foreach ($row as $movies) {
+                    echo $movies;
                 }
                 $x++;
             }
