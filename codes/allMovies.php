@@ -8,22 +8,22 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     </head>
     <body>
-    <?php
-        /**
-         * Created by PhpStorm.
-         * User: offormachukwunonso
-         * Date: 15/03/2016
-         * Time: 22:13
-         */
-        include 'server.inc.php';//include php file where i have connection to db
+            <?php
+                /**
+                 * Created by PhpStorm.
+                 * User: offormachukwunonso
+                 * Date: 15/03/2016
+                 * Time: 22:13
+                 */
+                include 'server.inc.php';//include php file where i have connection to db
 
-        $sql = "SELECT title, yearReleased, productionStudio FROM marvelmovies";//create the sql query string
+                $sql = "SELECT title, yearReleased, productionStudio FROM marvelmovies";//create the sql query string
 
-        $result = mysqli_query($conn,$sql);//Query the db using the mysqli_query function and store result in result varaible.
+                $result = mysqli_query($conn,$sql);//Query the db using the mysqli_query function and store result in result varaible.
 
 
-        while($row = mysqli_fetch_assoc($result)){
-    ?>
+                while($row = mysqli_fetch_assoc($result)){
+            ?>
 
             <?php
 
@@ -35,13 +35,9 @@
                         echo "</div>";
                     }
                 }
-                $x++;
 
-
-            print_r($row);
             ?>
-        </div>
-    </div>
+
 
 <?php
 }
