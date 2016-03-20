@@ -22,17 +22,14 @@
         $result = mysqli_query($conn,$sql);//Query the db using the mysqli_query function and store result in result varaible.
 
 
-        while($row = mysqli_fetch_array($result)){
+        while($row = mysqli_fetch_assoc($result)){
     ?>
 
             <?php
 
                echo "<div class=\"container\">
                      <div class=\"row\">";
-
-                     ;
                 foreach ($row as $movies) {
-                    echo"<div class=\"col-md-3\">";
                     foreach ($movies as $key => $value){
                         echo"{$key}: {$value}";
                     }
