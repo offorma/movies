@@ -23,9 +23,7 @@
 
 
                 while($row = mysqli_fetch_assoc($result)){
-            ?>
 
-            <?php
 
                 foreach ($row as $movies) {
                     foreach ($movies as $key => $value){
@@ -35,11 +33,7 @@
                         echo "</div>";
                     }
                 }
-
+                }
             ?>
 
-
-<?php
-}
-?>
 </body></html>"
