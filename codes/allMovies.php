@@ -24,11 +24,13 @@
 
         while($row = mysqli_fetch_assoc($result)){
     ?>
-    <div class="container">
-        <div class="row">
+
             <?php
-            while($x >=4){
-              echo "<div class=\"col-md-3\">" ;
+
+               echo "<div class=\"container\">
+                     <div class=\"row\">"
+                      while($x >=4){
+                     echo"<div class=\"col-md-3\">" ;
                 foreach ($row as $key => $value) {
                     echo $key." = ".$value;
                 }
