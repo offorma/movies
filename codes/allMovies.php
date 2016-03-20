@@ -32,7 +32,7 @@
 
                      ;
                 foreach ($row as $movies) {
-                    echo"<div class=\"col-md-3\">"
+                    echo"<div class=\"col-md-3\">";
                     foreach ($movies as $key => $value){
                         echo"{$key}: {$value}";
                     }
