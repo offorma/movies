@@ -32,7 +32,7 @@
                       while($x >=4){
                      echo"<div class=\"col-md-3\">" ;
                 foreach ($row as $key => $value) {
-                    echo $key." = ".$value;
+                    echo $row[$key];
                 }
                 $x++;
             }
