@@ -25,15 +25,15 @@
                 while($row = mysqli_fetch_assoc($result)){
 
 
-                foreach ($row as $movies) {
-                    foreach ($movies as $key => $value){
+
+                    foreach ($row as $key => $value){
                         echo "<div class ='col-sm-3'>";
                         echo "$key: $value";
                         echo "<br>";
                         echo "</div>";
                     }
                 }
-                }
+
             ?>
 
 </body></html>"
