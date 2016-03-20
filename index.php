@@ -9,16 +9,16 @@
     <body>
           <div class="container">
               <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <a href="codes/allMovies.php">All Movies</a>
                     </div>
-                    <div class="col-md-4 ">
+                    <div class="col-md-3 ">
                         <a href="codes/MoviesByMarvel.php">All Movies By Marvel</a>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <a href="codes/MoviesAfter2010.php">All Movies After 2010</a>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <a href="codes/allXmenMovies.php">All X-Men Movies</a>
                     </div>
               </div>
