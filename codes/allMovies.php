@@ -25,13 +25,14 @@
                 while($row = mysqli_fetch_assoc($result)){
 
 
-
+                    echo "<div class ='col-sm-3'>";
                     foreach ($row as $key => $value){
-                        echo "<div class ='col-sm-3'>";
+
                         echo "$key: $value";
                         echo "<br>";
-                        echo "</div>";
+
                     }
+                    echo "</div>";
                 }
 
             ?>
