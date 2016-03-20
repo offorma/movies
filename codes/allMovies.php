@@ -29,13 +29,16 @@
 
                echo "<div class=\"container\">
                      <div class=\"row\">";
-                      while($x >=4){
-                     echo"<div class=\"col-md-3\">" ;
+
+                     ;
                 foreach ($row as $movies) {
-                    echo $movies;
+                    echo"<div class=\"col-md-3\">"
+                    foreach ($movies as $key => $value){
+                        echo"{$key}: {$value}";
+                    }
                 }
                 $x++;
-            }
+
 
             print_r($row);
             ?>
