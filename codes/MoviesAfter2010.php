@@ -16,7 +16,7 @@
      */
     include 'server.inc.php';//include php file where i have connection to db
 
-    $sql = "SELECT title, yearReleased, productionStudio FROM marvelmovies WHERE productionYear > '2010'";//create the sql query string
+    $sql = "SELECT title, yearReleased, productionStudio FROM marvelmovies WHERE yearReleased > '2010'";//create the sql query string
 
     $result = mysqli_query($conn,$sql);//Query the db using the mysqli_query function and store result in result varaible.
 
