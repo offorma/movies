@@ -7,18 +7,21 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     </head>
     <body>
-    <form action="login.php" method = "POST" class ="col-sm-6 col-sm-offset-3">
-        <div class="form-group">
-            <label for="Inputusername">Username</label>
-            <input type="text" name="username" class="form-control" id="Inputusername" placeholder="Username">
-        </div>
-        <div class="form-group">
-            <label for="InputPassword1">Password</label>
-            <input type="password" name="password" class="form-control" id="InputPassword1" placeholder="Password">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-    </form>
-    <div class="error"><?php echo $error;?><?php echo $username; echo
-        $password;?></div>
+          <div class="container">
+              <div class="row">
+                    <div class="col-md-4">
+                        <a href="codes/allMovies.php">All Movies</a>
+                    </div>
+                    <div class="col-md-4 ">
+                        <a href="codes/MoviesByMarvel.php">All Movies By Marvel</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="codes/MoviesAfter2010.php">All Movies After 2010</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="codes/allXmenMovies.php">All X-Men Movies</a>
+                    </div>
+              </div>
+          </div>
     </body>
     </html>
