@@ -17,10 +17,10 @@
     include 'server.inc.php';//include php file where i have connection to db
 echo "c";
     $sql = "SELECT title, yearReleased, productionStudio FROM marvelmovies WHERE title LIKE X";//create the sql query string
-echo "d";
+
     $result = mysqli_query($conn,$sql);//Query the db using the mysqli_query function and store result in result varaible.
 
-
+    echo "d";
     while($row = mysqli_fetch_assoc($result)){
 
 
