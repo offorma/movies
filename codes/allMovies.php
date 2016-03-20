@@ -10,7 +10,7 @@
 $sql = "SELECT * FROM marvelmovies";
 $result = mysqli_query($conn,$sql);
 
-while($row = mysqli_fetch_array($result))
+while($row = mysqli_fetch_row($result))
 {
     /* the code inside here is repeated for each item in the array
     You can do things like the following to print out each movie title */
