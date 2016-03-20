@@ -30,7 +30,7 @@
                 foreach ($row as $movies) {
                     foreach ($movies as $key => $value){
                         echo "<div class ='col-sm-3'>";
-                        echo "{$key}: {$value}";
+                        echo "$key: $value";
                         echo "<br>";
                         echo "</div>";
                     }
