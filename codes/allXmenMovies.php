@@ -20,7 +20,8 @@
     $result = mysqli_query($conn,$sql);//Query the db using the mysqli_query function and store result in result varaible.
 
     while($row = mysqli_fetch_assoc($result)){
-
+    $title = $row['title'];
+        echo $title;
 
         echo "<div class ='col-sm-3'>";
         foreach ($row as $key => $value){
